@@ -1,9 +1,11 @@
 <?php 
 include 'includes/header.php';
-
-if (file_exists("pages/".$url.".php")) {
+if ($url == '/') {
+	include 'pages/home.php';
+} else if (file_exists("pages/".$url.".php")) {
 	include 'pages/'.$url.'.php';
-} else {
+}
+else {
 	echo "404";
 }
 

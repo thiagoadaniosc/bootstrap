@@ -1,15 +1,28 @@
+
 body {
-	background-color: #F9F9F9;
+	background-color: #F9F9F9 !important;
 }
+::-webkit-scrollbar   {
+	background-color: #CFCFCF;
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #1D5C91;
+	width: 5px; 
+}
+
 #wrapper {
 	min-height: 94.2vh;
-	padding: 0;	
+	padding: 0;
+	padding-bottom: 10px;	
 	margin: 0;
 	width: 100%
 }
 
 #body-wrapper {
 	padding:0;
+	border: 1px solid blue;
 
 }
 
@@ -22,6 +35,7 @@ body {
 	margin-right: 3px; 
 	margin-bottom: 3vh; 
 	height: auto;
+	
 }
 
 #button-scroll-top a {
@@ -45,11 +59,14 @@ body {
 
 #header .container {
 	padding: 0;
+
 }
 #header #img-logo-primary {
-	margin-left:30px; 
-	margin-right: 0;
+	margin-left:10px; 
 	display: inline;
+	max-width: 300px;
+	padding: 0;
+
 }
 
 #header #img-logo-secundary {
@@ -57,10 +74,10 @@ body {
 }
 
 #header #menu-button {
-	margin-top: 30px;
+	margin-top: 0px;
 	float: right; 
-	height: 50px; 
-	width: 60px; 
+	height: 40px; 
+	width: 50px; 
 	outline: none;
 	background-color: transparent;
 	border: 2px solid white;
@@ -138,6 +155,15 @@ nav {
 	padding: 0; 
 	margin-left: auto;
 	margin-right: auto;
+	overflow: hidden;
+}
+
+
+#nav-bar #nav-menu-default ul li {
+	padding: 0; 
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
 }
 
 #nav-bar #navbar-nav-default  > li > a  {
@@ -150,6 +176,7 @@ nav {
 	height:50px;
 	margin: 0;
 	border-top: 1px solid transparent;
+	overflow: hidden;
 
 
 }
@@ -205,7 +232,7 @@ nav {
 
 
 
- #nav-menu-fixed ul {
+#nav-menu-fixed ul {
 	padding: 0; 
 	width: auto;
 	margin: 0;
@@ -241,7 +268,7 @@ nav {
 	width: 100% ;
 	height: auto; 
 	padding: 20px;
-	margin-top: 20px;
+	clear: both;
 }
 
 .footer .container {

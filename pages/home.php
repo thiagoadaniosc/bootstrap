@@ -7,7 +7,7 @@
 	</ol>
 -->
 <!-- Carrousel Begin -->
-<section id="noticias-content" class="container col-lg-9 col-sm-12 col-xs-12 col-md-12 col-xl-12">
+<section id="noticias-content" class="container col-lg-8 col-md-8 col-sm-12 col-xs-12 col-md-12 col-xl-12">
 	
 	<div id="carousel-noticias" class="carousel slide thumbnail" data-ride="carousel">
 
@@ -55,7 +55,7 @@
 		</div> 
 		
 		<!-- End Carousel contend -->
-		<!-- INIT Carousel Arrows -->
+		<!-- INIT Carousel Arrows
 		<a class="left carousel-control" href="#carousel-noticias" data-slide="prev">
 			<span class="glyphicon glyphicon-chevron-left"></span>
 		</a>
@@ -63,29 +63,105 @@
 			<span class="glyphicon glyphicon-chevron-right"></span>
 		</a>
 
-		<!-- End Carousel --> 
+	-->
+
+	<!-- End Carousel --> 
+</div>
+
+<section id="last-news">
+	<div id="last-news-title" class="col-lg-12">
+
+		<h3 class="col-lg-9">Ultimas Noticias</h3>
+		<a href="/noticias" class="more-news col-lg-3">Mais Noticias...</a>
 	</div>
+	<!-- INIT NOTICIA ITEM-->
+	<?php for ($i=0; $i < 12; $i++): ?>
+		<div class="last-news-item thumbnail col-lg-4"> 
+			<a href="">
+				<div class="news-img col-lg-12" >
+					<img src="../assets/images/1032_big.jpg" class="img-responsive">
+				</div>
+				<h4 class="news-title col-lg-12">Noticia de hoje em dia <br>
+					<small>Subtexto da noitica</small>
+				</h4>
+			</a>
+		</div>
+	<?php endfor; ?>
+	<!-- END  NOTICIA ITEM-->
+
+
+</section>
+<!-- VIDEOS -->
+<section id="last-videos">
+	<div id="last-videos-title" class="col-lg-12">
+		<h3>Ultimas Vídeos</h3>
+	</div>
+	<!-- INIT VIDEO ITEM-->
+	<?php for ($i=0; $i < 8; $i++): ?>
+		<div class="last-videos-item thumbnail col-lg-3" title="Sessão 12/12/2017" uk-tooltip="delay: 400" offset="0"> 
+			<a href="">
+				<div class="videos-img col-lg-12">
+					<img src="../assets/images/1032_big.jpg" class="img-responsive">
+					<i class="fa fa-play fa-5x img-responsive"></i>
+				</div>
+			</a>
+		</div>
+	<?php endfor ?>
+	<!-- END  VIDEO ITEM-->
+
 
 </section>
 
-<nav id="menu-right" class="navbar col-lg-3 col-sm-12 col-xs-12">
-	<ul class="navbar-nav nav-stacked">
-		<li class="nav-item">
+</section>
+<!-- INIT Menu RIGHT -->
+<nav id="menu-right" class="navbar col-lg-4 col-md-4 col-sm-12 col-xs-12 col-xl-12" >
+
+
+	<ul class="navbar-nav nav-stacked col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12">
+		<li class="nav-item ">
 			<a href="">
+				<div class="menu-right-img-1">
+				<img src="../assets/images/mak1.png" class="nav-right-img-mak img-responsive">
+				</div>
+			
 			</a>
 		</li>
 		<li class="nav-item">
 			<a href="">
-				<img src="assets/images/camara-transparente.png" class="img-responsive">
+				<div class="menu-right-img-2">
+				<img src="../assets/images/mak2.png" class="nav-right-img-mak">
+				</div>
 			</a>
 		</li>
+		<li class="nav-item">
+			<a href="">
+				<div class="menu-right-img-3">
+				<img src="../assets/images/mak3.png" class="nav-right-img-mak">
+				</div>
+			</a>
+		</li>
+		<li class="nav-item">
+			<a href="">
+				<div class="menu-right-img-4">
+				<img src="../assets/images/mak4.png" class="nav-right-img-mak">
+				</div>
+			</a>
+		</li>
+
 
 	</ul>
 
 </nav>
 
+<!-- END Menu RIGHT -->
+
 </main>
 
+<script type="text/javascript">
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip()
+	})
+</script>
 
 
 <!-- Body End -->

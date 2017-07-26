@@ -1,3 +1,3 @@
 <?php include("config.php") ?>
-<?php $url = 'home' ?>
+<?php $url = $_SERVER['REQUEST_URI'] ?>
 <?php include("template.php") ?>

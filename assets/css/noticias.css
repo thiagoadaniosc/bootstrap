@@ -1,0 +1,10 @@
+    #content-body {
+    	clear: both; 
+    	padding: 0;
+    	padding-bottom: 20px;
+    	padding-top: 20px;
+    	width: 80%; /* Alterar para mudar escala*/
+    	border: 1px solid black;
+    	margin: auto;
+
+    }

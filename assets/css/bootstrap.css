@@ -3580,7 +3580,7 @@ tbody.collapse.in {
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
   text-decoration: none;
-  cursor: not-allowed;
+
   background-color: transparent;
   background-image: none;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
@@ -3997,7 +3997,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li.disabled > a:focus {
   color: #777;
   text-decoration: none;
-  cursor: not-allowed;
   background-color: transparent;
 }
 .nav .open > a,
@@ -4035,7 +4034,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #555;
-  cursor: default;
+
   background-color: #fff;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
@@ -4757,7 +4756,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > .active > span:focus {
   z-index: 3;
   color: #fff;
-  cursor: default;
   background-color: #337ab7;
   border-color: #337ab7;
 }
@@ -4768,7 +4766,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
   color: #777;
-  cursor: not-allowed;
   background-color: #fff;
   border-color: #ddd;
 }
@@ -4839,7 +4836,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager .disabled > a:focus,
 .pager .disabled > span {
   color: #777;
-  cursor: not-allowed;
   background-color: #fff;
 }
 .label {
@@ -4858,7 +4854,6 @@ a.label:hover,
 a.label:focus {
   color: #fff;
   text-decoration: none;
-  cursor: pointer;
 }
 .label:empty {
   display: none;
@@ -4939,7 +4934,6 @@ a.badge:hover,
 a.badge:focus {
   color: #fff;
   text-decoration: none;
-  cursor: pointer;
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
@@ -6404,7 +6398,6 @@ button.close {
   height: 10px;
   margin: 1px;
   text-indent: -999px;
-  cursor: pointer;
   background-color: #000 \9;
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid #fff;
