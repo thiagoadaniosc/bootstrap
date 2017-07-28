@@ -1,2 +1,3 @@
 <?php 
-define("DOCUMENT_URL",'localhost/bootstrap/');
+define("DOCUMENT_URL",'http://'.$_SERVER['HTTP_HOST'].'/bootstrap/');
+

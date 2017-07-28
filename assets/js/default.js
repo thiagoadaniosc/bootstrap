@@ -26,4 +26,16 @@ $(function(){
 			
 		} 
 	});  
+
+
+	
+
 });
+
+function goToTop() {
+	$('html,body').animate({
+		scrollTop: 0
+	}, 700);
+	console.log("ola");
+}
+

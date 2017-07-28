@@ -22,7 +22,6 @@ body {
 
 #body-wrapper {
 	padding:0;
-	border: 1px solid blue;
 
 }
 
@@ -139,7 +138,9 @@ nav {
 }
 
 #nav-bar #nav-menu-default .container {
-	padding: 0;
+	padding: auto;
+	text-align: center
+	margin: auto;
 }
 
 #nav-bar .navbar {
@@ -152,10 +153,12 @@ nav {
 }
 
 #nav-bar #nav-menu-default ul {
-	padding: 0; 
-	margin-left: auto;
-	margin-right: auto;
-	overflow: hidden;
+	margin: auto;
+	padding:0;
+	/*max-width: 880px;*/
+	max-width: 60em;
+	float: none;
+
 }
 
 
@@ -163,7 +166,7 @@ nav {
 	padding: 0; 
 	margin-left: auto;
 	margin-right: auto;
-	overflow: hidden;
+
 }
 
 #nav-bar #navbar-nav-default  > li > a  {
@@ -171,12 +174,11 @@ nav {
 	color: white;
 	padding-left: 20px;
 	padding-right: 20px;
-	font-size: 16px;
+	font-size: 100%;
 	text-align: left;
 	height:50px;
 	margin: 0;
 	border-top: 1px solid transparent;
-	overflow: hidden;
 
 
 }
@@ -184,8 +186,38 @@ nav {
 #nav-bar #navbar-nav-default > li > a:hover {
 	background-color: #00488d;
 	height:50px;
-	border-top: 4px solid transparent;
+	/*border-top: 4px solid transparent;*/
 }
+
+#sub-menu {
+
+	color: white;
+	background-color: #162D50;
+	position: absolute;
+	z-index: 2;
+	top: 50px;
+	left: 0;
+}
+
+#sub-menu li {
+	display: inline-block !important;
+	width: 100%;
+}
+#sub-menu li  a{
+	display: block !important;
+	padding: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-decoration: none;
+	color: white;
+	height: auto
+}
+
+#sub-menu li  a:hover{
+	background-color: #00488D;
+	color: white;
+}
+
 /**
 .navbar-inverse .navbar-nav > li > a:after {
 	transition: 0.4s;
@@ -249,6 +281,35 @@ nav {
 	margin: 0;
 	border-top: 2px solid transparent;
 
+}
+
+#sub-menu-fixed {
+	color: white;
+	background-color: #162D50;
+	position: absolute;
+	z-index: 2;
+	top: 60px;
+	left: 0;
+	opacity: 0.9;
+}
+
+#sub-menu-fixed li {
+	display: inline-block !important;
+	width: 100%;
+}
+#sub-menu-fixed  li  a{
+	display: block !important;
+	padding: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-decoration: none;
+	color: white;
+	height: auto
+}
+
+#sub-menu-fixed  li  a:hover{
+	background-color: #00488D;
+	color: white;
 }
 
 #nav-bar #nav-menu-fixed .nav-fixed-hide {
@@ -318,6 +379,23 @@ nav {
 	}
 	#nav-bar .nav-item{
 		font-size: 16px !important; 
+	}
+
+	#nav-bar #nav-menu-default ul {
+		margin: 0;
+		padding:0;
+
+	}
+
+	#nav-menu-default .container {
+
+		padding: 0;
+	}
+
+	#sub-menu {
+		position: relative;
+		top:0;
+
 	}
 
 }
