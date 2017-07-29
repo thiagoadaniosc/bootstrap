@@ -55,7 +55,7 @@
 		</div> 
 		
 		<!-- End Carousel contend -->
-		<!-- INIT Carousel Arrows-->
+		<!-- INIT Carousel Arrows
 		<a class="left carousel-control" href="#carousel-noticias" data-slide="prev">
 			<span class="glyphicon glyphicon-chevron-left"></span>
 		</a>
@@ -65,7 +65,7 @@
 
 	
 
-	<!-- End Carousel --> 
+	 End Carousel --> 
 </div>
 
 <section id="last-news">
@@ -114,9 +114,11 @@
 
 </section>
 <!-- INIT Menu RIGHT -->
-<nav id="menu-right" class="navbar col-lg-4 col-md-4 col-sm-12 col-xs-12 col-xl-12" >
+<nav id="menu-right-content" class="navbar col-lg-4 col-md-4 col-sm-12 col-xs-12 col-xl-12" >
 
+<?php include 'includes/menu.php'; ?>
 
+<!--
 	<ul class="navbar-nav nav-stacked col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12">
 		<li class="nav-item ">
 			<a href="">
@@ -153,6 +155,7 @@
 
 </nav>
 
+-->
 <!-- END Menu RIGHT -->
 
 </main>

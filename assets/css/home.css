@@ -1,128 +1,281 @@
-    #content-body {
-    	clear: both; 
-    	padding: 0;
-    	margin:0;
-    	padding-bottom: 20px;
-    	width: 80%;
-    	padding-top: 20px;
-    	width: 100%; /* Alterar para mudar escala*/
+#content-body {
+ clear: both; 
+ padding: 0;
+ margin:0;
+ padding-bottom: 20px;
+ width: 80%;
+ padding-top: 20px;
+ width: 100%; /* Alterar para mudar escala*/
 
-    }
-
-
-    #noticias-content {
-    	padding: 5px;
-    	padding-top: 0px;
-
-    }
-
-    .carousel, #carousel-noticias {
-    	overflow: hidden !important;
-
-    }
-    #noticias-content #carousel-title {
-    	z-index: 1;
-    	position: absolute;
-    	left: 15px;
-    	top: 5px;
-    	font-size: 2vh;
-    	color: white;
+}
 
 
+#noticias-content {
+ padding: 5px;
+ padding-top: 0px;
 
-    }
+}
 
-    #carousel-title-border {
-    	z-index: 1;
-    	width: 50px;
-    	height: 4px;
-    	background-color: #162D50;
-    	position: absolute;
-    	top: 45px;
-    	left: 15px;
+.carousel, #carousel-noticias {
+ overflow: hidden !important;
 
-
-    }
-
-    #noticias-content #carousel-noticias {
-    	padding: 0; 
-    	margin: 0;
-    }
-
-    .carousel-inner {
-
-    }
-
-    #noticias-content #carousel-noticias ol {
-       opacity: 0.6;	
-       position: absolute;
-       bottom: 0;
-   }
-
-   #noticias-content #carousel-noticias ol li {
-       width: 30px; 
-       height: 3px; 
-       border-radius: 0; 
-       margin: 0; 
-       padding: 0;
-   }
-
-   #noticias-content #carousel-noticias ol li:active {
-       width: 30px; 
-       height: 3px; 
-       border-radius: 0;
-       margin: 0; 
-       padding: 0;
-       border: 0;
-       background-color: white;
-
-   }
-   #carousel-noticias {
-       height: auto;
-       background-color: black;
+}
+#noticias-content #carousel-title {
+ z-index: 1;
+ position: absolute;
+ left: 15px;
+ top: 5px;
+ font-size: 2vh;
+ color: white;
 
 
 
-   }
+}
 
-   .item {	
-       padding: 0; 
-       margin: 0;
+#carousel-title-border {
+ z-index: 1;
+ width: 50px;
+ height: 4px;
+ background-color: #162D50;
+ position: absolute;
+ top: 45px;
+ left: 15px;
 
-   }
 
-   .carousel-caption {
-       width: 100%;
-       position: absolute; 
-       left: 0; 
-       background-color:rgba(0, 0, 0, 0.4);
-       margin: 0;
-       bottom: 0;
-   }
-   .item img {
-       opacity: 0.6;
-       transition: 1s;
-       filter: blur(1px);
-       max-height: 445px;
-       min-height: 250px;
-       width: 100%;
-       height: 445px !important;
+}
 
-   }
+#noticias-content #carousel-noticias {
+ padding: 0; 
+ margin: 0;
+}
 
-   #carousel-noticias:hover .item img {
-       opacity: 1;
-       filter: blur(0px);
-       transform: scale(1.1,1.1);
-       -moz-transform: scale(1.1,1.1);
-   }
+.carousel-inner {
 
-   .item a {
-       color: white;
-   }
+}
 
-   /*INIT MENU RIGHT*/
+#noticias-content #carousel-noticias ol {
+ opacity: 0.6;	
+ position: absolute;
+ bottom: 0;
+}
 
+#noticias-content #carousel-noticias ol li {
+ width: 30px; 
+ height: 3px; 
+ border-radius: 0; 
+ margin: 0; 
+ padding: 0;
+}
+
+#noticias-content #carousel-noticias ol li:active {
+ width: 30px; 
+ height: 3px; 
+ border-radius: 0;
+ margin: 0; 
+ padding: 0;
+ border: 0;
+ background-color: white;
+
+}
+#carousel-noticias {
+ height: auto;
+ background-color: black;
+
+
+
+}
+
+.item {	
+ padding: 0; 
+ margin: 0;
+
+}
+
+.carousel-caption {
+ width: 100%;
+ position: absolute; 
+ left: 0; 
+ background-color:rgba(0, 0, 0, 0.4);
+ margin: 0;
+ bottom: 0;
+}
+.item img {
+ opacity: 0.6;
+ transition: 1s;
+ filter: blur(1px);
+ max-height: 445px;
+ min-height: 250px;
+ width: 100%;
+ height: 445px !important;
+
+}
+
+#carousel-noticias:hover .item img {
+ opacity: 1;
+ filter: blur(0px);
+ transform: scale(1.1,1.1);
+ -moz-transform: scale(1.1,1.1);
+}
+
+.item a {
+ color: white;
+}
+
+/**INIT MENU RIGHT **/
+#menu-right-content {
+  padding: 0;
+
+} 
+
+#menu-right {
+  background-color: black;
+  border-radius: 0;
+  margin: 0;
+  border:0;
+  padding: 0;
+  height: auto;
+  padding-left: 0px;
+  border: 0;
+}
+#menu-right ul li {
+  border-radius: 0;
+  transition: 1s;
+}
+#menu-right ul li:hover {
+  border-radius: 0;
+
+}
+
+#menu-right li a {
+  color: white;
+  padding: 0;
+  margin:0;
+}
+#menu-right li a:hover, #menu-right li a:focus {
+  border-radius: 0;
+  background-color: transparent;
+    border: 0;
+}
+
+#menu-right .menu-rigth-item {
+  background-color: rgba(0, 0, 0, 0.6);
+  /*background-color: rgba(23, 41, 118, 0.8);*/
+  width: 100%;
+  height: 120px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  transition: 1s;
+  /*border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;*/
+   border-right:  15px solid #082C59;
+}
+
+#menu-right .menu-rigth-item:hover {
+  /*background-color: rgba(23, 41, 118, 0.7);*/
+  background-color: rgba(3, 23, 71, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
+  /*border-left: 15px solid #2747BF;*/
+  border-right: 15px solid #2747BF;
+
+
+}
+
+#menu-right ul li:hover {
+  transition: 1s;
+    border: 0 !important;
+}
+
+
+#menu-right ul li:nth-child(1) div {
+  background-color: rgba(3, 40, 127,0.8);
+}
+#menu-right ul li:nth-child(2) div {
+  /*background-color: rgba(1, 56, 7,0.8);*/
+  border-right:  15px solid black;
+}
+
+#menu-right ul li:nth-child(3) div {
+  background-color: rgba(107, 3, 3,0.8);
+   border-right:  15px solid rgb(99, 0, 0);
+}
+
+#menu-right ul li:nth-child(5) div {
+  background-color: rgba(11, 8, 76,0.8);
+   border-right:  15px solid rgb(11, 8, 76);
+}
+
+#menu-right ul li:nth-child(1){
+  transition: 1s;
+  background-image: url(../images/menu-r-image1.jpg);
+  background-size: 100% 170px;
+  color: white;
+
+}
+
+#menu-right ul li:nth-child(2){
+  background-image: url(../images/menu-r-image2.jpg);
+  background-size: 100% 170px;
+  color: white;
+}
+
+#menu-right ul li:nth-child(3){
+  background-image: url(../images/menu-r-image3.jpg);
+  background-size: 100%;
+  color: white;
+}
+
+#menu-right ul li:nth-child(4){
+  background-image: url(../images/menu-r-image4.jpg);
+  background-size: 100%;
+  color: white;
+}
+
+#menu-right ul li:nth-child(5){
+  background-image: url(../images/menu-r-image5.jpg);
+  background-size: 100%;
+  color: white;
+}
+
+#menu-right ul li:hover {
+ /*transform: scale(1.02,1.02);
+ filter: grayscale(1);*/
+}
+
+#menu-right .menu-rigth-item {
+  overflow: hidden;
+}
+
+#menu-right .menu-rigth-item h4 {
+  /*font-family: 'Bellefair';*/
+  font-family: 'Raleway', sans-serif;*
+  /*font-family: 'Anton', sans-serif;*/
+  font-size: 1.5em;
+  margin:0;
+  padding: 0;
+  color: white !important;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  text-align: center;
+  letter-spacing:5px;
+}
+
+#menu-right .menu-rigth-item  p {
+  float: right !important;
+  color: white;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  margin-left: 5px;
+
+  font-size: 0.9em;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+/**
    #content-body #menu-right {
        margin-bottom:auto;
        position: relative;
@@ -148,7 +301,7 @@
        transition: 1s;
 
 
-       /**background-color: black;**/
+       /**background-color: black;
    }
    #content-body #menu-right ul li a {
        margin: 0;
@@ -158,6 +311,8 @@
 
 
    }
+
+
     /**
     #content-body #menu-right ul li a .nav-right-img {
     	background-image: url(../images/nav-right-1.jpg);
@@ -198,7 +353,7 @@
     	top:0;
 
     }
-    */
+    
 
     .menu-right-img-1{
     	background-image: url(../images/menu-r-img1.png);
@@ -275,7 +430,7 @@
     top: 0;
     right: 0;
 
-    } **/
+    } 
 
     .navbar-right-item {
     	width: 80px;
@@ -283,14 +438,14 @@
     	content: "";	
     	background-image:url("../images/camara-transparente.png");
     }
-    /* END RIGHT MENU*/
+    END RIGHT MENU **/
     #last-news {
     	padding: 0;
     	margin: 0;
 
     }
 
-    .thumbnail {
+    #last-news .thumbnail {
     	padding: 5px;
     	margin: 0;
     	margin-top: 10px;
@@ -420,20 +575,20 @@
        width: 100%!important;
        height: 1¨80px;
        background-size: 100% 180px !important;
-   }
-   #menu-right ul li a div {
+     }
+     #menu-right ul li a div {
        max-width:100% !important;
        width: 100%!important;
        height: 180px;
        background-size: 100% 180px !important;
-   }
+     }
 
-   #menu-right ul li a div img {
+     #menu-right ul li a div img {
        display: none;
-   }
-   #menu-right ul li a div:hover {
+     }
+     #menu-right ul li a div:hover {
       transition: 1s;
       transform: scale(1,1) !important;
+    }
   }
-}
 

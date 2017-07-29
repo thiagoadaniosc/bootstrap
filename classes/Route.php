@@ -6,9 +6,12 @@ class Route {
 
 		if (file_exists("pages/".$uri.".php")) {
 			include 'pages/'.$uri.'.php';
+			
 		} else {
 			include 'pages/home.php';
 		}
+		
+
 	}
 
 }

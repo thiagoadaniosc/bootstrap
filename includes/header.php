@@ -12,6 +12,7 @@
 	<script type="text/javascript" src="<?= DOCUMENT_URL ?>assets/js/default.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="<?= DOCUMENT_URL ?>assets/css/uikit.css">
 	<link rel="stylesheet" type="text/css" href="<?= DOCUMENT_URL ?>assets/css/bootstrap.css">	
 	<link rel="stylesheet" type="text/css" href="<?= DOCUMENT_URL ?>assets/css/animate.css">

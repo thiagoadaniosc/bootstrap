@@ -30,4 +30,8 @@
 
 		</p>
 	</article>
+
+	<?php include 'includes/last-news.php'; ?>
+
 </main>
+
