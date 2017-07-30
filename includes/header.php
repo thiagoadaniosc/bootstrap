@@ -64,7 +64,7 @@
 						<li><a href="" class="nav-item">Legislação</a></li>
 						<li><a href="" class="nav-item">Serviços</a></li>
 						<li><a href="" class="nav-item">Transparencia</a></li>
-						<li><a href="" class="nav-item">Contato</a></li>
+						<li><a href="contato" class="nav-item">Contato</a></li>
 
 					</ul>	
 				</div>
@@ -92,7 +92,7 @@
 						<li><a href="" class="nav-item nav-item-fixed">Legislação</a></li>
 						<li><a href="" class="nav-item nav-item-fixed">Serviços</a></li>
 						<li><a href="" class="nav-item nav-item-fixed">Transparencia</a></li>
-						<li><a href="" class="nav-item nav-item-fixed">Contato</a></li>
+						<li><a href="contato" class="nav-item nav-item-fixed">Contato</a></li>
 					</ul>	
 				</div>
 

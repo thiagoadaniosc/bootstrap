@@ -3,7 +3,21 @@
 </div>
 <footer class="footer">
 	<section class="container">
-		<img src="assets/images/sao-jose-footer.png" class="img-responsive">
+		<section class="social-networks">
+			<img src="assets/images/facebook-icon.png" class="img-responsive">
+			<img src="assets/images/twitter-icon.png" class="img-responsive">
+			<img src="assets/images/instagram-icon.png" class="img-responsive">
+			<img src="assets/images/youtube-icon.png" class="img-responsive">
+		</section>
+		<img src="assets/images/sao-jose-footer.png" class="img-responsive img-footer-logo">
+		<nav>
+			<ul class="nav nav-stacked nav-pills">
+				<li>PRAÇA ARNOLDO DE SOUZA, 38 - CENTRO - SÃO JOSÉ - SC</li>
+				<li>CEP: 88103-005</li>
+				<li>TELEFONE: (48) 3029-1321</li>
+				<li>E-mail: ouvidoria@cmsj.sc.gov.br</li>
+			</ul>
+		</nav>
 	</section>
 </footer>
 
