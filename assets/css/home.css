@@ -1,11 +1,11 @@
 #content-body {
- clear: both; 
- padding: 0;
- margin:0;
- padding-bottom: 20px;
- width: 80%;
- padding-top: 20px;
- width: 100%; /* Alterar para mudar escala*/
+  clear: both; 
+  padding: 0;
+  margin:0;
+  padding-bottom: 20px;
+  width: 80%;
+  padding-top: 20px;
+  width: 100%; /* Alterar para mudar escala*/
 
 }
 
@@ -17,16 +17,17 @@
 }
 
 .carousel, #carousel-noticias {
- overflow: hidden !important;
+  overflow: hidden !important;
+  border-radius: 0;
 
 }
 #noticias-content #carousel-title {
- z-index: 1;
- position: absolute;
- left: 15px;
- top: 5px;
- font-size: 2vh;
- color: white;
+  z-index: 1;
+  position: absolute;
+  left: 15px;
+  top: 5px;
+  font-size: 2vh;
+  color: white;
 
 
 
@@ -61,13 +62,21 @@
 
 #noticias-content #carousel-noticias ol li {
  width: 30px; 
- height: 3px; 
+ height: 5px; 
  border-radius: 0; 
  margin: 0; 
  padding: 0;
+ background-color: #3C3C3C;
+ border:0;
 }
 
-#noticias-content #carousel-noticias ol li:active {
+#noticias-content #carousel-noticias ol .active {
+  background-color: white;
+
+}
+
+
+#noticias-content #carousel-noticias ol li:focus {
  width: 30px; 
  height: 3px; 
  border-radius: 0;
@@ -75,6 +84,7 @@
  padding: 0;
  border: 0;
  background-color: white;
+
 
 }
 #carousel-noticias {
@@ -95,14 +105,41 @@
  width: 100%;
  position: absolute; 
  left: 0; 
- background-color:rgba(0, 0, 0, 0.4);
+ background-color:rgba(0, 0, 0, 0.6);
  margin: 0;
  bottom: 0;
+ height: auto;
 }
+
+.carousel-control {
+  width: 8%;
+  opacity: 0.1;
+  transition: 1s;  
+}
+
+.carousel-caption  h1 {
+  font-size:  3vh;
+  padding: 5px;
+  margin:0;
+  /*font-family: 'Bellefair';*/
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.carousel-caption a {
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+}
+
+.carousel-caption:hover a {
+  color: #DBDBDB;
+}
+
 .item img {
  opacity: 0.6;
  transition: 1s;
- filter: blur(1px);
+ /**filter: blur(1px);**/
  max-height: 445px;
  min-height: 250px;
  width: 100%;
@@ -154,7 +191,7 @@
 #menu-right li a:hover, #menu-right li a:focus {
   border-radius: 0;
   background-color: transparent;
-    border: 0;
+  border: 0;
 }
 
 #menu-right .menu-rigth-item {
@@ -168,7 +205,7 @@
   transition: 1s;
   /*border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;*/
-   border-right:  15px solid #082C59;
+  border-right:  15px solid #082C59;
 }
 
 #menu-right .menu-rigth-item:hover {
@@ -183,7 +220,7 @@
 
 #menu-right ul li:hover {
   transition: 1s;
-    border: 0 !important;
+  border: 0 !important;
 }
 
 
@@ -197,12 +234,12 @@
 
 #menu-right ul li:nth-child(3) div {
   background-color: rgba(107, 3, 3,0.8);
-   border-right:  15px solid rgb(99, 0, 0);
+  border-right:  15px solid rgb(99, 0, 0);
 }
 
 #menu-right ul li:nth-child(5) div {
   background-color: rgba(11, 8, 76,0.8);
-   border-right:  15px solid rgb(11, 8, 76);
+  border-right:  15px solid rgb(11, 8, 76);
 }
 
 #menu-right ul li:nth-child(1){

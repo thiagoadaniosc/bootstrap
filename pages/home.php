@@ -5,7 +5,7 @@
 	<!-- <ol class="breadcrumb" style="background-color: transparent; padding-top: 50px;">
 		Pagina: <li class="active">Inicial</li>
 	</ol>
-	-->
+-->
 <!-- Carrousel Begin -->
 <section id="noticias-content" class="container col-lg-8 col-md-8 col-sm-12 col-xs-12 col-md-12 col-xl-12">
 	
@@ -25,29 +25,30 @@
 		<div class="carousel-inner" role="listbox" >
 			<!-- Init Carrousel Itens -->
 			<div class="item active">
-				<img class="img-responsive" src="assets/images/ny-cr-1.jpg" alt="First slide">
-				<div class="carousel-caption">
-					<h1>Hello</h1>
-					<p>Ola Mundo</p>
-
-				</div>
-
-			</div>
-
-			<div class="item">
+				
 				<img class="img-responsive" src="assets/images/1032_big.jpg" alt="First slide">
 				<div class="carousel-caption">
-					<h1>Hello</h1>
-					<p>Ola Mundo</p>
+					<h1><a href="">Primeiro semestre do Legislativo resultou em 128 projetos</a></h1>
+					
+
+				</div>
+
+			</div>
+
+			<div class="item">
+				<img class="img-responsive" src="assets/images/1030_big.jpg" alt="First slide">
+				<div class="carousel-caption">
+					<h1><a href="">Primeiro semestre do Legislativo resultou em 128 projetos</a></h1>
+					
 
 				</div>
 			</div>
 
 			<div class="item">
-				<img class="img-responsive" src="assets/images/ny-cr-1.jpg" alt="First slide">
+				<img class="img-responsive" src="assets/images/1030_big.jpg" alt="First slide">
 				<div class="carousel-caption">
-					<a href=""><h1> Hello</h1></a>
-					<p>Ola Mundo</p>
+					<h1><a href="">Primeiro semestre do Legislativo resultou em 128 projetos</a></h1>
+
 
 				</div>
 			</div>
@@ -55,7 +56,7 @@
 		</div> 
 		
 		<!-- End Carousel contend -->
-		<!-- INIT Carousel Arrows
+		<!-- INIT Carousel Arrows-->
 		<a class="left carousel-control" href="#carousel-noticias" data-slide="prev">
 			<span class="glyphicon glyphicon-chevron-left"></span>
 		</a>
@@ -63,60 +64,60 @@
 			<span class="glyphicon glyphicon-chevron-right"></span>
 		</a>
 
-	
+		
 
-	 End Carousel --> 
-</div>
-
-<section id="last-news">
-	<div id="last-news-title" class="col-lg-12">
-
-		<h3 class="col-lg-9">Ultimas Noticias</h3>
-		<a href="noticias" class="more-news col-lg-3">Mais Noticias...</a>
+		<!-- End Carousel --> 
 	</div>
-	<!-- INIT NOTICIA ITEM-->
-	<?php for ($i=0; $i < 12; $i++): ?>
-		<div class="last-news-item thumbnail col-lg-4"> 
-			<a href="">
-				<div class="news-img col-lg-12" >
-					<img src="assets/images/1032_big.jpg" class="img-responsive">
-				</div>
-				<h4 class="news-title col-lg-12">Noticia de hoje em dia <br>
-					<small>Subtexto da noitica Subtexto da noiticaSubtexto da noiticaSubtexto da noiticaSubtexto da noitica</small>
-				</h4>
-			</a>
+
+	<section id="last-news">
+		<div id="last-news-title" class="col-lg-12">
+
+			<h3 class="col-lg-9">Ultimas Noticias</h3>
+			<a href="noticias" class="more-news col-lg-3">Mais Noticias...</a>
 		</div>
-	<?php endfor; ?>
-	<!-- END  NOTICIA ITEM-->
+		<!-- INIT NOTICIA ITEM-->
+		<?php for ($i=0; $i < 12; $i++): ?>
+			<div class="last-news-item thumbnail col-lg-4"> 
+				<a href="">
+					<div class="news-img col-lg-12" >
+						<img src="assets/images/1032_big.jpg" class="img-responsive">
+					</div>
+					<h4 class="news-title col-lg-12">Noticia de hoje em dia <br>
+						<small>Subtexto da noitica Subtexto da noiticaSubtexto da noiticaSubtexto da noiticaSubtexto da noitica</small>
+					</h4>
+				</a>
+			</div>
+		<?php endfor; ?>
+		<!-- END  NOTICIA ITEM-->
 
 
-</section>
-<!-- VIDEOS -->
-<section id="last-videos">
-	<div id="last-videos-title" class="col-lg-12">
-		<h3>Ultimas Vídeos</h3>
-	</div>
-	<!-- INIT VIDEO ITEM-->
-	<?php for ($i=0; $i < 8; $i++): ?>
-		<div class="last-videos-item thumbnail col-lg-3" title="Sessão 12/12/2017" uk-tooltip="delay: 400" offset="0"> 
-			<a href="">
-				<div class="videos-img col-lg-12">
-					<img src="assets/images/1032_big.jpg" class="img-responsive">
-					<i class="fa fa-play fa-5x img-responsive"></i>
-				</div>
-			</a>
+	</section>
+	<!-- VIDEOS -->
+	<section id="last-videos">
+		<div id="last-videos-title" class="col-lg-12">
+			<h3>Ultimas Vídeos</h3>
 		</div>
-	<?php endfor ?>
-	<!-- END  VIDEO ITEM-->
+		<!-- INIT VIDEO ITEM-->
+		<?php for ($i=0; $i < 8; $i++): ?>
+			<div class="last-videos-item thumbnail col-lg-3" title="Sessão 12/12/2017" uk-tooltip="delay: 400" offset="0"> 
+				<a href="">
+					<div class="videos-img col-lg-12">
+						<img src="assets/images/1032_big.jpg" class="img-responsive">
+						<i class="fa fa-play fa-5x img-responsive"></i>
+					</div>
+				</a>
+			</div>
+		<?php endfor ?>
+		<!-- END  VIDEO ITEM-->
 
 
-</section>
+	</section>
 
 </section>
 <!-- INIT Menu RIGHT -->
 <nav id="menu-right-content" class="navbar col-lg-4 col-md-4 col-sm-12 col-xs-12 col-xl-12" >
 
-<?php include 'includes/menu.php'; ?>
+	<?php include 'includes/menu.php'; ?>
 
 <!--
 	<ul class="navbar-nav nav-stacked col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12">
