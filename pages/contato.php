@@ -3,15 +3,15 @@
 <main id="content-body" class="container">
 
 	<h2>Contato</h2>
-	<section id="form" class="col-lg-6">
+	<section id="form" class="col-lg-6 thumbnail">
 	
-		<form method="post" action="contato.php" class="form-inline thumbnail">
-			<input type="text" name="nome" placeholder="Nome" class="form-control">
-			<input type="text" name="telefone" placeholder="Telefone" class="form-control">
+		<form method="post" action="contato.php" class="form-inline ">
+			<input type="text" name="nome" placeholder="Nome" class="form-control col-lg-6">
+			<input type="text" name="telefone" placeholder="Telefone" class="form-control col-lg-6">
 			<input type="text" name="email" placeholder="E-mail" class="form-control">
 			<input type="text" name="assunto" placeholder="Assunto" class="form-control">
 			<textarea name="mensagem" placeholder="Mensagem" class="form-control"></textarea>
-			<input type="reset" value="Apagar" class="btn btn-danger">
+			<input type="reset" value="Limpar" class="btn btn-danger">
 			<input type="submit" value="Enviar" class="btn btn-primary">
 
 		</form>

@@ -347,6 +347,11 @@ nav {
 	height: 30px;
 	float: left;
 	margin-right:10px;
+	transition: 1s;
+}
+
+.footer .social-networks img:hover {
+	opacity: 0.5;
 }
 
 .footer .img-footer-logo  {

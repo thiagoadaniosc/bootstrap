@@ -12,6 +12,8 @@ body {
 	/**	width: 90%; /* Alterar para mudar escala*/
 	background-color: white;
 	margin-top: 70px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 h2 {
 	margin-bottom: 30px;
@@ -22,8 +24,16 @@ h2 {
 	padding:0;
 }
 
+
+
 #form {
 	margin-bottom: 70px;
+	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 0;
+
 }
 
 #form form input{
@@ -31,14 +41,17 @@ h2 {
 	height: 50px;
 	font-size: 20px;
 	float: left;
-	margin-right: 1px;
+}
+
+#form form input[type="text"] {
+	margin-left:  5px;
 }
 
 #form form input[type="submit"]{
 	margin-bottom: 20px;
-	width: 40%;
-	height: 10vh;
+	height: 40px;
 	font-size: 20px;
+	width: 40%;
 	float:right;
 	transition: 1s;
 }
@@ -46,7 +59,7 @@ h2 {
 #form form input[type="reset"]{
 	margin-bottom: 20px;
 	width: 40%;
-	height: 10vh;
+	height: 40px;
 	font-size: 20px;
 	float:left;
 	transition: 1s;
@@ -58,7 +71,9 @@ h2 {
 	font-size: 20px;
 	width: 100%;
 }
-
+#contato .thumbnail {
+	border-radius: 0;
+}
 #contato div {
 	/**background-color: #D7D7D7;*/
 	width: 100%;
@@ -66,12 +81,15 @@ h2 {
 	padding-top: 20px;
 	padding-left: 10px;
 	border-radius: 10px;
+	height: auto;
 }
+
 
 #contato div h3 {
 	margin:0;
 	padding: 0;
 	color: #00488D;
+	font-size: 1.5em;
 }
 
 #contato div h4 {
@@ -79,6 +97,8 @@ h2 {
 }
 
 #mapa iframe {
-	height: 280px;
-	margin-top:30px;
+	height: 355px;
+	margin-top:5px;
+	border-radius: 0;
 }
+
